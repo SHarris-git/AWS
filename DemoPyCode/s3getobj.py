@@ -1,3 +1,11 @@
+# Edit bucket_name = and object_key = lines below for your use case
+# This code is a simple example of how to use the AWS S3 Python (Boto3) SDK to retrieve an object from an S3 bucket
+# It handles exceptions and logging, but you may want to add additional error handling or logging as needed
+
+"""
+Purpose
+Shows how to use the AWS SDK for Python (Boto3) to get an object from an S3 bucket.
+"""
 import boto3
 import logging
 from botocore.exceptions import ClientError
