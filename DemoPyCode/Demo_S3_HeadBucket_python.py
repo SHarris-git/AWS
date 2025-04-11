@@ -1,5 +1,5 @@
 # GSH
-# Run code from Cloud9. Checks if provided bucket name exists.
+# Run code from VSCode. Checks if provided bucket name exists.
 import boto3
 from botocore.exceptions import ClientError
 
